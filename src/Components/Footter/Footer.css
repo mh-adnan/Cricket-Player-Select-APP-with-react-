@@ -1,0 +1,116 @@
+/* Footer Top  section starts */
+
+.footer-top {
+    background-color: #34495e; /* Slightly lighter background */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding for the top section */
+  }
+  
+  .footer-top h2 {
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  .footer-top p {
+    margin-bottom: 15px; /* Space below paragraph */
+  }
+  
+  .footer-top input {
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners for input */
+    width: 80%; /* Input width */
+    max-width: 300px; /* Max width for input */
+    margin-right: 10px; /* Space to the right of the input */
+  }
+  
+  .footer-top button {
+    padding: 10px 15px; /* Padding for button */
+    background-color: #2980b9; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Cursor pointer on hover */
+  }
+  
+  .footer-top button:hover {
+    background-color: #3498db; /* Change color on hover */
+  }
+  
+
+
+
+
+
+
+
+
+
+/* 
+footer top section ends here  */
+
+
+
+
+
+
+
+/* Fotter section starts here */
+.footer-section {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-image {
+    width: 120px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .footer-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    margin: 0 0 10px;
+  }
+  
+  .footer-content input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ecf0f1;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  /* Fottoer section ends here  */

@@ -1,0 +1,109 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #f8f8f8; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .nav-bar img {
+    height: 50px;
+    margin-right: 500px;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar ul li {
+    cursor: pointer;
+    font-size: 18px; 
+    font-weight: 500; 
+  }
+  
+  .nav-bar ul li:hover {
+    color: #007bff; 
+  }
+  
+  .nav-bar p {
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid skyblue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+
+
+  /* banner section   start */
+
+  .banner-section {
+    background-image: 
+      radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 70%),
+      url('../assets/bg-shadow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* For positioning child elements */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
+  .banner-image {
+    position: absolute; 
+    margin-top: 100px;
+  
+    width: 20%; 
+    height: 50%; 
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+    /* z-index: 1; */
+  }
+  
+  .banner-content {
+    position: relative; /* For stacking context */
+    z-index: 2; /* Ensure text is above the image */
+    padding: 20px; /* Add padding around text */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .banner-title {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make title bold */
+    margin: 10px 0; /* Space around the title */
+  }
+  
+  .banner-subtitle {
+    font-size: 18px; /* Adjust font size */
+    margin: 10px 0; /* Space around the subtitle */
+  }
+  
+  .banner-button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth background transition */
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .banner-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+  }
+  
+
+  /* banner section   ends */
