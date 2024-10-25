@@ -1,0 +1,41 @@
+/* .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+
+
+
+.card img {
+    width: 40%;
+    border-radius: 30px;
+    object-fit: cover;
+} */
+
+
+
+.card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+  }
+  
+  .card button {
+    margin-top: 0.5rem;
+  }
+  
