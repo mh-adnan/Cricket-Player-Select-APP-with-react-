@@ -1,8 +1,9 @@
-# BPL Cricketer Selection App
+# BPL Cricketer Selection App using React
 
 
 ## Live Demo
-You can view the live version of the project at: [BPL: The Ultimate Cricketer Selection App]()
+You can view the live version of the project at: [BPL: The Ultimate Cricketer Selection App](https://bpl-cricket-web-site.surge.sh)
+
 
 ## Description
 This project is a cricketer selection application that allows users to manage a team of cricketers by adding or removing players based on their budget. The app provides a user-friendly interface to browse players and see their details, helping users create their ideal team.
