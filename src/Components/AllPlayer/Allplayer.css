@@ -3,10 +3,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-left: 20px;
+    margin-bottom: 200px;
 }
 
 .card-container img {
-    width: 100%;
+    width: 300px;
     border-radius: 30px;
     object-fit: cover;
 }

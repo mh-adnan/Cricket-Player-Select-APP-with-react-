@@ -1,24 +1,35 @@
-import React, { useState, useEffect } from "react";
-import Singelplayer from "../SingelPlayer/Singelplayer";
 
-const Allplayer = ({ handelSelectedPlayer }) => {
-  const [players, setPlayers] = useState([]);
+import { useEffect, useState } from 'react';
+import './Allplayer.css';
+import Singelplayer from '../SingelPlayer/Singelplayer';
 
-  useEffect(() => {
-    fetch('fakeData.json')
-      .then(res => res.json())
-      .then(data => setPlayers(data));
-  }, []);
+const Allplayer = ({ handelSelectedPlayer, handleRemovePlayer, showAllPlayers, selectedPlayer }) => {
+    const [players, setPlayers] = useState([]);
 
-  return (
-    <div className="p-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {players.map((p) => (
-          <Singelplayer key={p.id} player={p} handelSelectedPlayer={handelSelectedPlayer} />
-        ))}
-      </div>
-    </div>
-  );
+    useEffect(() => {
+        fetch('fakeData.json')
+            .then(res => res.json())
+            .then(data => setPlayers(data));
+    }, []);
+
+    return (
+        <div className="grid grid-cols-3 gap-4">
+            {showAllPlayers 
+                ? players.map((p) => (
+                    <Singelplayer key={p.id} player={p} handelSelectedPlayer={handelSelectedPlayer} />
+                ))
+                : selectedPlayer.map((p) => (
+                    <Singelplayer 
+                        key={p.id} 
+                        player={p} 
+                        handelSelectedPlayer={handelSelectedPlayer} 
+                        handleRemovePlayer={handleRemovePlayer} 
+                        isSelected 
+                    />
+                ))
+            }
+        </div>
+    );
 };
 
 export default Allplayer;

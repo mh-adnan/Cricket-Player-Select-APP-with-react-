@@ -1,18 +1,4 @@
-/* .card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-left: 20px;
-    
-}
 
-
-
-.card img {
-    width: 40%;
-    border-radius: 30px;
-    object-fit: cover;
-} */
 
 
 
@@ -39,3 +25,38 @@
     margin-top: 0.5rem;
   }
   
+
+
+
+
+
+
+
+
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: left;
+    background-color: #fff;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.player-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}

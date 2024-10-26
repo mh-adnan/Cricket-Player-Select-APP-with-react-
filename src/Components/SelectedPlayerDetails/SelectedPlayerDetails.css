@@ -1,0 +1,70 @@
+.selected-players {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.player-details {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.player-details img {
+  width: 120px; 
+  height: 120px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 6px; 
+}
+
+.player-info .icon {
+  margin-right: 5px; 
+  color: #4a4a4a; 
+}
+
+.player-name,
+.player-country,
+.player-type,
+.player-rating,
+.player-price {
+  font-weight: 500;
+  color: #333;
+}
+
+.choose-player-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choose-player-button:hover {
+  background-color: #0056b3; 
+}
+
+.player-price {
+  font-weight: bold;
+  color: #1e7e34;
+}
+
+.no-players-message {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+}

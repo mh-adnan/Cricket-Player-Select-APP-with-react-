@@ -6,38 +6,38 @@
   {
     "id": 1,
     "cricketer_name": "Dhoni",
-    "cricketer_type": "Batsman",
-    "country": "South Africa",
-    "role": "Top Order Batsman",
-    "price": 500000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_type": "Wicket Keeper/Batsman",
+    "country": "India",
+    "role": "Middel Order Batsman",
+    "price": 50,
+    "image_url": "https://i.ibb.co.com/HYkH4Qt/Mahendra-Singh-Dhoni-fun-facts.webp"
   },
   {
     "id": 2,
-    "cricketer_name": "Rohit Sharma",
-    "cricketer_type": "Batsman",
-    "country": "India",
+    "cricketer_name": "Adam Gilchrist",
+    "cricketer_type": "Wicket Keeper/Batsman",
+    "country": "Australia",
     "role": "Opening Batsman",
-    "price": 1500000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "price": 150,
+    "image_url": "https://i.ibb.co.com/3S6pJ0T/images.jpg"
   },
   {
     "id": 3,
-    "cricketer_name": "Pat Cummins",
-    "cricketer_type": "Bowler",
-    "country": "Australia",
-    "role": "Fast Bowler",
-    "price": 1200000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Kumar Sangakkara",
+    "cricketer_type": "Wicket Keeper/Batsman",
+    "country": "Sri Lanka",
+    "role": "Top Order Batsman",
+    "price": 120,
+    "image_url": "https://i.ibb.co.com/jkYMQqX/kumar-sangakkara-1414396559.webp"
   },
   {
     "id": 4,
-    "cricketer_name": "Jos Buttler",
-    "cricketer_type": "Wicket Keeper",
-    "country": "England",
-    "role": "Wicketkeeper-Batsman",
-    "price": 800000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Sachin Tendulkar",
+    "cricketer_type": "Batsman",
+    "country": "India",
+    "role": "Opening Batsman",
+    "price": 80,
+    "image_url": "https://i.ibb.co.com/6Hf1Fwx/8205226.webp"
   },
   {
     "id": 5,
@@ -45,44 +45,44 @@
     "cricketer_type": "Batsman",
     "country": "India",
     "role": "Top Order Batsman",
-    "price": 2000000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "price": 20,
+    "image_url": "https://i.ibb.co.com/YTnQmtf/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
   },
   {
     "id": 6,
-    "cricketer_name": "Jasprit Bumrah",
-    "cricketer_type": "Bowler",
-    "country": "India",
-    "role": "Fast Bowler",
-    "price": 1100000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "AB de Villiers",
+    "cricketer_type": "Batsman",
+    "country": "South Africa",
+    "role": "Middel Order Batsman",
+    "price": 11,
+    "image_url": "https://i.ibb.co.com/XC3xzJV/de-villiers.jpg"
   },
   {
     "id": 7,
-    "cricketer_name": "Kane Williamson",
-    "cricketer_type": "Batsman",
-    "country": "New Zealand",
-    "role": "Middle Order Batsman",
-    "price": 900000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Shoaib Akhtar",
+    "cricketer_type": "Bowler",
+    "country": "Pakistan",
+    "role": "Fast Bowler",
+    "price": 90,
+    "image_url": "https://i.ibb.co.com/q0552qV/lahore-qalandars-sign-shoaib-akhtar-as-bowling-mentor.webp"
   },
   {
     "id": 8,
-    "cricketer_name": "Ben Stokes",
-    "cricketer_type": "All-rounder",
-    "country": "England",
-    "role": "All-rounder",
-    "price": 1300000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Brett Lee",
+    "cricketer_type": "Bowler",
+    "country": "Australia",
+    "role": "Fast Bowler",
+    "price": 13,
+    "image_url": "https://i.ibb.co.com/Qbp62ZY/2205.webp"
   },
   {
     "id": 9,
-    "cricketer_name": "Quinton de Kock",
-    "cricketer_type": "Wicket Keeper",
-    "country": "South Africa",
-    "role": "Wicketkeeper-Batsman",
-    "price": 700000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Wasim Akram",
+    "cricketer_type": "Bowler",
+    "country": "Pakistan",
+    "role": "Fast Bowler",
+    "price": 70,
+    "image_url": "https://i.ibb.co.com/rcyQX0M/images-1.jpg"
   },
   {
     "id": 10,
@@ -90,25 +90,25 @@
     "cricketer_type": "Bowler",
     "country": "Afghanistan",
     "role": "Leg Spinner",
-    "price": 950000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "price": 95,
+    "image_url": "https://i.ibb.co.com/JcJ3YHm/images-2.jpg"
   },
   {
     "id": 11,
-    "cricketer_name": "Trent Boult",
+    "cricketer_name": "Shane Warne",
     "cricketer_type": "Bowler",
-    "country": "New Zealand",
-    "role": "Fast Bowler",
-    "price": 1000000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "country": "Australia",
+    "role": "Leg Spinner",
+    "price": 10,
+    "image_url": "https://i.ibb.co.com/HN56S91/warne-1449984273-800.webp"
   },
   {
     "id": 12,
-    "cricketer_name": "Steve Smith",
-    "cricketer_type": "Batsman",
-    "country": "Australia",
-    "role": "Middle Order Batsman",
-    "price": 1400000,
-    "image_url": "https://i.ibb.co.com/JdKyPBr/Indian-cricketer-Mahendra-Singh-Dhoni-2011.webp"
+    "cricketer_name": "Muttiah Muralitharan",
+    "cricketer_type": "Bowler",
+    "country": "Sri Lanka",
+    "role": "Off Spinner",
+    "price": 14,
+    "image_url": "https://i.ibb.co.com/JrJsNQR/Muttiah-Muralitharan.webp"
   }
 ]

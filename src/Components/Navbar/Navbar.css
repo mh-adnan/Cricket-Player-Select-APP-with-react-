@@ -10,6 +10,7 @@
   .nav-bar img {
     height: 50px;
     margin-right: 500px;
+    
   }
   
   .nav-bar ul {
@@ -44,18 +45,19 @@
 
   .banner-section {
     background-image: 
-      radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 70%),
+      radial-gradient(circle, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0) 100%),
       url('../assets/bg-shadow.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 430px;
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    position: relative; /* For positioning child elements */
-    color: white; /* Text color */
-    text-align: center; /* Center text */
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    color: white;
+    text-align: center; 
+   
   }
   
   .banner-image {
@@ -66,44 +68,31 @@
     height: 50%; 
     object-fit: cover; 
     transform: translate(-50%, -50%);
-    /* z-index: 1; */
+  
   }
   
   .banner-content {
-    position: relative; /* For stacking context */
-    z-index: 2; /* Ensure text is above the image */
-    padding: 20px; /* Add padding around text */
-    display: flex; /* Use flexbox to align items */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    position: relative; 
+    z-index: 2; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
   }
   
   .banner-title {
-    font-size: 24px; /* Adjust font size */
-    font-weight: bold; /* Make title bold */
-    margin: 10px 0; /* Space around the title */
+    font-size: 24px; 
+    font-weight: bold; 
+    margin: 10px 0;
   }
   
   .banner-subtitle {
-    font-size: 18px; /* Adjust font size */
-    margin: 10px 0; /* Space around the subtitle */
+    font-size: 18px; 
+    margin: 10px 0;
   }
   
-  .banner-button {
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer on hover */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s; /* Smooth background transition */
-    margin-top: 10px; /* Space above the button */
-  }
-  
-  .banner-button:hover {
-    background-color: #0056b3; /* Darker button color on hover */
-  }
+
+
   
 
   /* banner section   ends */
