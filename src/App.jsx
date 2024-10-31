@@ -37,6 +37,13 @@ function App() {
     }
   };
 
+
+
+
+
+
+
+
   const handleRemovePlayer = (playerId) => {
     const playerToRemove = selectedPlayer.find((p) => p.id === playerId);
     if (playerToRemove) {
@@ -45,6 +52,16 @@ function App() {
       toast.info(`${playerToRemove.cricketer_name} removed from your team`);
     }
   };
+
+
+
+
+
+
+
+
+
+  
 
   const handeMoneyIncrease = (price) => {
     if (price > increaseMoney) {
